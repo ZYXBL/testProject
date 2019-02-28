@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./js/1.js" async ></script>
+  
+  <script src="./js/3.js" async ></script>
+  <script>
+  console.log(4);
+  </script>
+</head>
+
+<body>
+  <div class="text">Hello World</div>
+
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function () {
+      console.log('dom content loaded, ready state:', this.readyState);
+    }, false);
+
+    window.addEventListener('load', function () {
+      console.log('window loaded, dom ready state:', document.readyState);
+    }, false);
+  </script>
+  <script src="./js/2.js" ></script>
+</body>
+
+</html>
